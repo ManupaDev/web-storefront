@@ -3,7 +3,237 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Storefront</title>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div>
+        <img src="./assets/workflow-mark.svg" width="36" height="36" alt="" />
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="/women">Women</a>
+        </li>
+        <li>
+          <a href="/men">Men</a>
+        </li>
+        <li>
+          <a href="/company">Company</a>
+        </li>
+        <li>
+          <a href="/stores">Stores</a>
+        </li>
+      </ul>
+      <div>
+        <ul class="nav-links">
+          <li>
+            <a href="/women">Search</a>
+          </li>
+          <li>
+            <a href="/men">Help</a>
+          </li>
+          <li>
+            <div class="cart-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                aria-hidden="true"
+                class="cart-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+                ></path>
+              </svg>
+              <p>0</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="hero">
+        <h1>New arrivals are here</h1>
+        <p>
+          The new arrivals have, well, newly arrived. Check out the latest
+          options from our summer small-batch release while they're still in
+          stock.
+        </p>
+        <button>Shop New Arrivals</button>
+      </section>
+
+      <section class="category-section">
+        <div class="header">
+          <h3>Shop by Category</h3>
+          <span>Browse all categories</span>
+        </div>
+        <div class="category-cards">
+          <div class="category-card">
+            <img src="./assets/category-01.jpg" alt="" />
+            <span>New Arrivals</span>
+          </div>
+          <div class="category-card">
+            <img src="./assets/category-02.jpg" alt="" />
+            <span>Productive</span>
+          </div>
+          <div class="category-card">
+            <img src="./assets/category-03.jpg" alt="" />
+            <span>Workspace</span>
+          </div>
+          <div class="category-card">
+            <img src="./assets/category-04.jpg" alt="" />
+            <span>Accessories</span>
+          </div>
+          <div class="category-card">
+            <img src="./assets/category-05.jpg" alt="" />
+            <span>Sale</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-section">
+        <div class="workspace-banner">
+          <h2>Level upyour desk</h2>
+          <p>
+            Make your desk beautiful and organized. Post a picture to social
+            media and watch it get more likes than life-changing announcements.
+            Reflect on the shallow nature of existence. At least you have a
+            really nice desk setup
+          </p>
+          <button>Shop Workspace</button>
+        </div>
+      </section>
+
+      <section class="collection-section">
+        <div class="header">
+          <h3>Shop by Collection</h3>
+          <p>
+            Each season, we collaborate with world-class designers to create a
+            collection inspired by the natural world.
+          </p>
+        </div>
+        <div class="collection-cards">
+          <div class="collection-card">
+            <div class="collection-card-banner handcrafted"></div>
+            <div class="collection-card-info">
+              <h4>Handcrafted Collection</h4>
+              <p>
+                Keep your phone, keys, and wallet together, so you can lose
+                everything at once
+              </p>
+            </div>
+          </div>
+          <div class="collection-card">
+            <div class="collection-card-banner desk"></div>
+            <div class="collection-card-info">
+              <h4>Organized Desk Collection</h4>
+              <p>
+                The rest of the house will still be a mess, but your desk will
+                look great.
+              </p>
+            </div>
+          </div>
+          <div class="collection-card">
+            <div class="collection-card-banner focus"></div>
+            <div class="collection-card-info">
+              <h4>Focus Collection</h4>
+              <p>
+                Be more productive than enterprise project managers with a
+                single piece of paper.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="productivity-section">
+        <div class="productivity-banner">
+          <h2>Simple productivity</h2>
+          <p>
+            Endless tasks, limited hours, a single piece of paper. Not really a
+            haiku, but we're doing our best here. No kanban boards, burndown
+            charts, or tangled flowcharts with our Focus system. Just the
+            undeniable urge to fill empty circles.
+          </p>
+          <button>Shop Focus</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-links">
+        <div class="footer-links-column">
+          <p class="footer-links-column-heading">Shop</p>
+          <a href="">Bags</a>
+          <a href="">Tees</a>
+          <a href="">Objects</a>
+          <a href="">Home Goods</a>
+          <a href="">Accessories</a>
+        </div>
+        <div class="footer-links-column">
+          <p class="footer-links-column-heading">Company</p>
+          <a href="">Who we are</a>
+          <a href="">Sustainability</a>
+          <a href="">Press</a>
+          <a href="">Careers</a>
+          <a href="">Terms & Conditions</a>
+          <a href="">Privacy</a>
+        </div>
+        <div class="footer-links-column">
+          <p class="footer-links-column-heading">Account</p>
+          <a href="">Manage Account</a>
+          <a href="">Returns & Exchanges</a>
+          <a href="">Redeem a Gift Card</a>
+        </div>
+        <div class="footer-links-column">
+          <p class="footer-links-column-heading">Connect</p>
+          <a href="">Contact Us</a>
+          <a href="">Twitter</a>
+          <a href="">Instagram</a>
+          <a href="">Pinterest</a>
+        </div>
+      </div>
+      <div class="contact">
+        <p>Sign up for our newsletter</p>
+        <form action="">
+          <div class="form-item">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              required
+              name="fname"
+              id="fname"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="form-item">
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              required
+              name="lname"
+              id="lname"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="form-item">
+            <label for="email">Email Address</label>
+            <input
+              type="text"
+              required
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+          </div>
+
+          <button>Sign Up</button>
+        </form>
+      </div>
+    </footer>
+  </body>
 </html>
