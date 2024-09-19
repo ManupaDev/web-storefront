@@ -135,7 +135,6 @@ nav {
         object-fit: cover;
         position: absolute;
         border-radius: 8px;
-   
       }
 
       span {
@@ -207,22 +206,13 @@ nav {
         height: 384px;
         position: relative;
 
-        &.handcrafted {
-          background: url(./assets/handcrafted.jpg);
-          background-position: center;
-          background-size: cover;
-        }
-
-        &.desk {
-          background: url(./assets/desk.jpg);
-          background-position: center;
-          background-size: cover;
-        }
-
-        &.focus {
-          background: url(./assets/focus.jpg);
-          background-position: center;
-          background-size: cover;
+        img {
+          width: 100%;
+          height: 100%;
+          display: block;
+          object-fit: cover;
+          position: absolute;
+          border-radius: 8px;
         }
       }
 
@@ -289,9 +279,6 @@ footer {
       .footer-links-column-heading {
         font-weight: 500;
         font-size: 14px;
-      }
-
-      a {
       }
     }
   }
